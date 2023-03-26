@@ -1,0 +1,247 @@
+body {
+	margin: 0px;
+	background-color: #464141;
+	font-family: 'Inter', sans-serif
+}
+
+header {
+	display: flex;
+	justify-content:space-between;
+}
+
+section, main {
+	color:white;
+}
+
+main {
+	display: flex;
+}
+
+img[alt="UFO"] {
+	margin: 14px 0 0 18px;
+	width: 88px;	
+	height: 79px;
+}
+
+.right-block-flex {		
+	padding: 10px;
+	display: flex;	
+	gap:0px;
+	justify-content: right;
+	background-color: #2B2A2A;
+	border-radius:0 0 0 17px;
+}
+
+a {
+	margin: 10px 0 0 2.71vw;			
+	color: #55EA2C;
+	text-decoration: none;
+	font-size: max(2.26vw, 14px);	
+	font-weight: 400;
+	cursor: pointer;
+}
+
+a[href="about"] {
+	text-decoration:underline;
+}
+
+a[href="devops"] {
+	font-size: max(2vw, 9px);	
+	margin-top: 25px;	
+	padding: 8px;	
+	background-color: #171717;
+	border-radius:17px;
+}
+
+.my-vertical-flex {
+	margin-right: 5px;	
+	display: flex;	
+	flex-direction: column;
+}
+
+.white-circle {
+	width: 17px;
+	height: 17px;
+	background-color: white;
+	border-radius:100%;
+	margin-right: 10px;
+	align-self: center;
+}
+
+.black-circle {
+	align-self: flex-start;
+	width: 19px;
+	height: 14px;
+	background-color: #343535;
+	border-radius:100%;
+	margin:6px 10px 0 0;
+}
+
+.main-welcome {
+	width: 50%;
+	margin: 53px 0 0 50px;
+	padding: 100px 0 10vw;	
+	background-color: #545252;
+	border-radius:23px;
+	font-size: 22px;
+}
+
+.welcome h2 {
+	font-weight: 600;	
+	font-size: 30px;
+	margin: 0;	
+}
+
+.welcome {
+	position: absolute;
+	left:27px;
+	top:120px;
+	width: 	40%;
+	background-color: #343535;
+	border-radius:23px;
+	padding: 20px;
+}
+
+.main-block	{
+	padding: 0 10px 0 35px;
+	font-weight:300;
+}
+
+section h1 {
+	text-align: center;
+	background-color: #343535;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 	60px;
+}
+
+.section-block {
+	font-size: 25px;	
+	display:inline-block;
+	background-color: #535050;
+	border-radius:89px;
+	padding: 62px 24px 76px 35px;
+	margin: 0 10%;
+}
+
+.point {
+	display: flex;
+	margin-top: 20px;
+}
+
+img[alt="space"] {
+	margin: 68px 10px 0 20px;
+	widows: 40vw;
+	opacity: 60%;
+}
+
+/* about.html */
+
+.main-about {
+	margin: 50px 50px 54px;
+	padding: 20px;
+	font-size: 30px;
+	font-weight: 200;	
+}
+
+.header-about {
+	margin: 34px 10px 0 10px;
+	display: block;
+	text-align: center;
+	font-style: italic;
+	font-size: 60px;
+	color:white;
+}
+
+/* buy.html */
+
+.buy {
+	width: 100%;	
+	margin: 60px 7% 0 10%;
+	padding: 180px 100px;	
+	background-color: #2B2A2A;
+	font-size: 35px;
+}
+
+.title-buy {
+	position: center;
+	left:3%;
+	top:7px;
+	width: 	70%;
+	border-radius:23px;
+	padding: 20px;
+}
+
+.title-buy h2 {
+	margin: 0;
+	font-weight:300;
+}
+
+.content-buy {
+	text-align: left;
+}
+
+/* 	devops */
+
+.italic {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 23px;	
+}
+
+.for-developers {
+	width: 100%;	
+	margin: 60px 7% 0 10%;
+	padding: 100px 100px;	
+	background-color: #2B2A2A;
+	font-size: 35px;
+}
+
+/* contacts.html */
+
+.contacts-block	{
+	margin: 53px 143px 53px 135px;
+	padding: 100px 70px 70px 30px;	
+	background-color: #2B2A2A;
+	border-radius:25px;
+	font-size: 22px;
+}
+
+.contacts-title {
+	position: absolute;
+	left:27px;
+	top:20px;
+	width: 	max(20%, 200px);
+	background-color: #D9D9D9;
+	border-radius:25px;
+	padding: 29px 9% 42px;
+	color:black;
+	font-style: italic;
+	font-weight: 400;
+
+}
+.main-contacts {
+	display: block;
+}
+
+.contacts-title > h2 {
+	margin: 0;	
+}
+
+.content-contacts > div > a {
+	color:white;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.content-contacts > div {
+	margin-bottom: 20px;	
+}
+.titleName {
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+.some-flex {
+	display: flex;
+	flex-direction: row;
+}
