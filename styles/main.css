@@ -31,6 +31,10 @@ img[alt="UFO"] {
 	background-color: #2B2A2A;
 	border-radius:0 0 0 17px;
 }
+.inline{
+	display: inline-block;
+	margin: 15px;
+}
 
 a {
 	margin: 10px 0 0 2.71vw;			
